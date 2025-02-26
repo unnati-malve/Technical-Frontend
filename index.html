@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOGO Offer</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+
+</head>
+<body>
+    <div class="container">
+        <div class="h2_container">
+            <h2>YAY! It's BOGO</h2>
+        </div>
+        <div class="unit" onclick="toggleUnit(this)">
+            <div class="unit-header">
+                <input type="radio" name="unit"> 1 Unit 
+                <span class="discount">10% Off</span> $10.00 USD
+                <span class="old_price">$24.00 USD</span>
+            </div>
+            <div class="unit-details">
+                <div class="size1">
+                    <div class="size">
+                        <span>Size:  &nbsp;  &nbsp;   &nbsp; Color:</span>
+                    </div>                    
+                <label>#1 <select><option>S</option><option>M</option></select></label>
+                <label><select><option>Black</option><option>White</option></select></label>
+            </div>
+            <div class="size2">
+                <label>#2 <select><option>S</option><option>M</option></select></label>
+                <label> <select><option>Black</option><option>White</option></select></label>
+            </div>
+            </div>
+        </div>
+        <div class="unit" onclick="toggleUnit(this)">
+            <div class="most-popular">MOST POPULAR</div>
+            <div class="unit-header">
+                <input type="radio" name="unit"> 2 Unit <span class="discount">20% Off</span> $18.00 USD
+                <span class="old_price">$24.00 USD</span>
+            </div>
+            <div class="unit-details">
+                <div class="size1">
+                    <div class="size">
+                        <span>Size:  &nbsp;  &nbsp;   &nbsp; Color:</span>
+                    </div> 
+                    <label>#1 <select><option>S</option><option>M</option></select></label>
+                <label><select><option>Black</option><option>White</option></select></label>
+            </div>
+            <div class="size2">
+                <label>#2 <select><option>S</option><option>M</option></select></label>
+                <label> <select><option>Black</option><option>White</option></select></label>
+                </div>
+            </div>
+        </div>
+        <div class="unit" onclick="toggleUnit(this)">
+            <div class="unit-header">
+                <input type="radio" name="unit"> 3 Unit <span class="discount">30% Off</span> $24.00 USD
+                <span class="old_price">$24.00 USD</span>
+            </div>
+            <div class="unit-details">
+                <div class="size1">
+                    <div class="size">
+                        <span>Size:  &nbsp;  &nbsp;   &nbsp; Color:</span>
+                    </div> 
+                    <label>#1 <select><option>S</option><option>M</option></select></label>
+                <label><select><option>Black</option><option>White</option></select></label>
+            </div>
+            <div class="size2">
+                <label>#2 <select><option>S</option><option>M</option></select></label>
+                <label> <select><option>Black</option><option>White</option></select></label>
+                </div>
+            </div>
+        </div>
+        <div class="free-delivery">Free Delivery</div>
+        <div class="total-price">Total: <span id="totalAmount">$18.00 USD</span></div>
+        <button class="add-to-cart">+ Add to Cart</button>
+    </div>
+
+    
+</body>
+</html>
